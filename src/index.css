@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  background-color: #faf5ed;
+  color: #1c1917;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(235, 207, 216, 0.12), transparent 24%),
+    radial-gradient(circle at 20% 18%, rgba(251, 191, 36, 0.12), transparent 18%),
+    linear-gradient(180deg, #fff6df 0%, #fce8ec 52%, #f9deec 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(220, 211, 201, 0.45);
+  color: #1c1917;
+}
